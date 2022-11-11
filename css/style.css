@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.logo h1 {
+    font-family: 'Marhey', cursive;
+    color: #180F4A;
+    font-size: 35px;
+    margin: 0;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: 4px solid #180F4A;
+}
+
+#btn {
+    background-color: #180F4A;
+    padding: 10px 25px;
+    margin-right: 10%;
+    margin-left: 5%;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    border: none;
+    background-color: #ff2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    padding-top: 120px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 30%;
+}
+
+.headline h2 {
+    font-weight: 900;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+}
+
+h2.text1 {
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+
+h2.text2 {
+    font-size: 70px;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #ff2978;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #180F4A;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 50%;
+    text-align: right;
+}
+
+.img-headline>img {
+    max-width: 100%;
+}
+
+section {
+    display: inline-block;
+    margin: 80px 5% 80px 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Marhey', cursive;
+    color: #180F4A;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.text-oculto {
+    display: none;
+}
+
+.card:hover {
+    background-color: #ff2978;
+    color: #fff;
+    padding: 60px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+
+
+.card:hover .text-oculto {
+    display: block;
+}
+
+footer {
+    margin-top: 80px;
+    height: 400px;
+    text-align: center;
+    border-top: 5px solid #ff2978;
+    background-color: #180F4A;
+}
+
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.logo-rodape p,
+footer b {
+    color: white;
+}
+
+.name-agencia {
+    font-family: 'Marhey', cursive;
+    color: #fff;
+    font-size: 35px;
+}
+
+.whats-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

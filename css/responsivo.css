@@ -1,0 +1,39 @@
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 1200px) {
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 50px;
+    }
+
+    .headline {
+        margin: 5%;
+        flex: 100%;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+    .img-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
